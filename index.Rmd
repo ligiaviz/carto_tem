@@ -2,13 +2,45 @@
 title: "Cartografia Temática em R para geógrafos"
 author: "Ligia Vizeu Barrozo"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
 description: "Este é um livro sobre a elaboração de mapas temáticos em R voltado mais especificamente para as necessidades dos geógrafos."
 ---
 # Apresentação {-}
+A Geografia é muito mais do que mapas, análises quantitativas, modelos de regressão. Sem dúvida! No entanto, tem se beneficiado muito com a elaboração de mapas, com análises quantitativas e modelos de regressão. É inquestionável. Análises quantitativas e qualitativas se complementam e ampliam a capacidade crítica de compreensão de um mundo em constante transformação.
+
+Há 16 anos ensinando Cartografia Temática para o curso de Bacharelado em Geografia na Universidade de São Paulo, tenho acompanhado a evolução das geotecnologias. Hoje temos a disponibilidade de grande volume de dados. Nossa forma de análise tradicional, utilizando planilhas eletrônicas que podem abrir arquivos de até 1 milhão de linhas, já não atende as necessidades de nossas pesquisas. Estamos em uma nova encruzilhada promovida pelo avanço tecnológico. Por acreditar no potencial crítico e sintético do geógrafo, encaro o desafio de contribuir para a aprendizagem e incorporação da programação na elaboração de mapas de forma mais acessível aos geógrafos e outros profissionais que usam dados espaciais para a compreensão do mundo.
+
+Penso que este livro pode cobrir uma lacuna que se situa na necessidade de o geógrafo aprender os primeiros passos do R para elaborar mapas temáticos. Neste caso, não estou preocupada em ensinar a fazer códigos limpos, bonitos e complexos, mas a ensinar como o aluno pode dar início à utilização do R, ao mesmo tempo em que aplica aspectos teóricos da Cartografia Temática na elaboração de seus mapas. Este livro surge junto com o meu próprio aprendizado ao tentar compilar inúmeros livros sobre R disponíveis, mas que não cumprem a função que preciso. 
+
+Fazer mapas não é sobre saber fazer código em R. O geógrafo pensa espacialmente. Precisa que os dados estejam representados cartograficamente para que sejam analisados, seja para a elaboração de hipóteses, seja para a comunicação de fenômenos espaciais, seja para testar hipóteses elaboradas previamente. Ao usar R para elaborar mapas, abre-se a possibilidade de explorar grandes bancos de dados e de permitir a reprodução exata dos procedimentos utilizados, garantindo transparência e avaliação criteriosa dos resultados obtidos.  
+
+# Sobre o livro {-}
+
+Por que mais um livro sobre a linguagem R?
+
+Este livro é para iniciantes na linguagem R. Não requer conhecimento anterior, ao mesmo tempo em que oferece conteúdo interessante para aqueles que já não são mais iniciantes. Também pode ser útil para quem utiliza mapas no jornalismo, pois orienta para a representação cartográfica mais adequada a cada conjunto de dados.
+
+Este livro pretende compilar, de forma compreensível, o básico da gramática do **ggplot2** e **tmap** além de recursos de diversos outros pacotes do R para a elaboração de mapas temáticos. Ao mesmo tempo, pretende associar aspectos técnicos da elaboração de mapas à teoria da representação cartográfica. 
+
+Este livro foi organizado de forma a intercalar o conteúdo teórico da Cartografia Temática com a elaboração de mapas a partir de códigos do R. Um aspecto importante é a utilização de dados abertos para ilustrar os diversos tipos de representação cartográfica. Desta forma, o leitor se torna independente na obtenção de dados e na elaboração de mapas.
+
+Este livro não está acabado. Ele será modificado à medida em que serão percebidos erros de qualquer tipo (conceituais, gramaticais, de tipografia, códigos etc.). Assim, fique à vontade em me enviar sugestões de correções. Agradeço antecipadamente. Também agradeço se puder divulgar este livro. Democratizar o conhecimento de forma gratuita e aberta faz parte de um projeto de mundo no qual o conhecimento científico de qualidade é valorizado e subsidia ações que promovam bem-estar para todos. 
+
+**Contato**:
+
+Ligia Vizeu Barrozo
+
+Departamento de Geografia/
+Fac. de Filosofia, Letras e Ciências Humanas
+
+**Universidade de São Paulo - USP**
+
+e-mail: lija@usp.br
+
+```{r echo=FALSE, out.width='20%'}
+knitr::include_graphics(rep("88x31.png"))
+```
+
+Este trabalho tem uma licença da [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 
 
